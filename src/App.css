@@ -1,0 +1,62 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.container{
+    background-color: rgba(128, 128, 128,0.1);
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    border-radius: 15px;
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+  margin: 5rem;
+  margin-top: 2rem;
+    
+}
+.number > div{
+    height: 30px;
+border-radius: 25px;
+ background-color: rgba(128, 128, 128,0.5);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ aspect-ratio: 1;
+}
+.number .active{
+     background-color: #7950f2;
+  color: #fff;
+}
+.messages{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.btns >button{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+width: 6rem;
+font-size: 14px;
+font-weight: bold;
+padding: 10px;
+border-radius: 12px;
+background-color: #7950f2;
+color: white ;
+cursor: pointer;
+    
+}
